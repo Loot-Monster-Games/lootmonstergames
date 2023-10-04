@@ -25,3 +25,29 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* src/components/Header.css */
+.header {
+  background-color: #003366; /* Dark Blue */
+  color: #FFD700;  /* Yellow */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-left: 20px;
+}
+
+.navigation a {
+  color: #FFD700;  /* Yellow */
+  text-decoration: none;
+}
